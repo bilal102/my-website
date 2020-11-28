@@ -1,0 +1,329 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    padding: 20px 0px 20px 60px;
+    border-bottom: none !important;
+    background-color: black !important;
+}
+
+.navbar ul li{
+  margin-right: 20px;
+}
+.navbar ul li a{
+    
+    color: white !important;
+    font-weight: 600;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.5s ease-in !important;
+}
+.navbar ul li a:hover{
+    color: deepskyblue !important;
+}
+.navbar-toggler{
+    border: 1px solid white !important;
+    color: white !important;
+    background-color: white !important;
+    transition: all 0.5s ease-in !important;
+}
+
+.navbar-toggler:hover{
+    background-color: deepskyblue !important;
+}
+
+
+.slider{
+    background-image: url(../img/slider.jpg);
+    width: 100%;
+    height: 700px;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+.slider-overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.65);
+    position: relative;
+}
+.slider-content{
+    width: 100%;
+    top: 37%;
+    position: absolute;
+}
+.icons .fa{
+    font-size: 35px;
+    margin-right: 25px;
+}
+#btn1{
+    padding: 13px 25px;
+    background-color: transparent;
+    text-transform: uppercase;
+    transition: all 0.5s ease-in;
+    color: white !important;
+    font-size: 13px;
+    letter-spacing: 1px;
+    border: 2px solid white;
+    border-top-left-radius: 15px;
+    margin-right: -6px;
+}
+#btn1:hover{
+    background-color: deepskyblue;
+    border-color: deepskyblue;
+    color: white;
+}
+#btn2{
+    padding: 13px 25px;
+    background-color: transparent;
+    text-transform: uppercase;
+    transition: all 0.5s ease-in;
+    color: white !important;
+    font-size: 13px;
+    letter-spacing: 1px;
+    border: 2px solid white;
+    border-bottom-right-radius: 15px;
+}
+#btn2:hover{
+    background-color: orangered;
+    border-color: orangered;
+    color: white;
+}
+.social-icons .fa{
+    border: 1px solid white;
+    padding: 10px;
+    width: 35px;
+    height: 35px;
+    border-radius: 25px;
+    color: white;
+    margin-right: 5px;
+    transition: all 0.5s ease-in;
+}
+.social-icons .fa:hover{
+    background-color: deepskyblue;
+    border-color: deepskyblue;
+    color: white;
+    border: 1px solid deepskyblue;
+}
+.slider #typed{
+    font-size: 33px;
+    display: inline;
+    text-transform: uppercase;
+}
+.slider .typed-cursor{
+    font-size: 33px;
+    display: inline;
+}
+.primary{
+    color: orangered;
+}
+
+.services-area{
+    margin-top: 30px;
+}
+.services-area{
+    margin-bottom: -5px;
+}
+
+.service-given{
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    overflow: hidden;
+    padding: 25px 35px;
+    position: relative;
+    transition: all 0.5 ease 0s;
+    z-index: 9;
+    margin-top: 20px;
+}
+.service-given::before, .service-given::after{
+    content: "";
+    height: 300%;
+    position: absolute;
+    transform: rotate(45deg);
+    width: 120%;
+    z-index: -9;
+    transition: all 0.5s;
+    opacity: 0;
+    background: #34495e;
+}
+.service-given::before{
+    top: -37px;
+    left: 100%;
+}
+.service-given:hover::before{
+    left: -27px;
+    opacity: 1;
+}
+.service-given::after{
+   right: 100%;
+   bottom: -37px;
+}
+.service-given:hover:after{
+    right: -27px;
+    opacity: 1;
+}
+.service-given:hover{
+    color: white;
+}
+.service-given:h3{
+    color: white;
+}
+.service-given:hover h3{
+    color: white;
+}
+.service-given:hover h3:after{
+    color: white;
+}
+.service-given:hover .sevice-icon i{
+    transform: rotate(360deg);
+}
+.service-given h3{
+    font-size: 25px;
+    font-weight: 700;
+    padding-bottom: 15px;
+    position: relative;
+}
+.service-given p{
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.sevice-icon .fa{
+    font-size: 40px;
+}
+.work img{
+    width: 100%;
+}
+.work{
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0px;
+}
+.img-wrapper{
+    overflow: hidden;
+}
+.img-wrapper img{
+    transition: transform 0.5s ease;
+    width: 100%;
+}
+.img-wrapper img:hover{
+    transform: scale(1.5);
+    cursor: zoom-in;
+}
+.team-info .name{
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding-top: 2px;
+}
+.team-info .desgnation{
+    font-size: 18px;
+    font-weight: 700;
+    color: deepskyblue;
+    letter-spacing: 1px;
+    margin-top: 5px;
+}
+.social-medi{
+    padding-left: 0;
+}
+.social-medi li{
+    list-style: none;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    margin-top: 6px;
+    margin-left: 6px;
+}
+.social-medi i{
+    font-size: 19px;
+    color: #64707b;
+}
+.teams img{
+    width: 100%;
+}
+
+.contact-form{
+    background: burlywood;
+    margin-top: 7%;
+    margin-bottom: 6%;
+    width: 80%;
+}
+.contact-form .form-control{
+    border-radius:1rem;
+}
+.contact-image{
+    text-align: center;
+}
+.contact-image img{
+    border-radius: 6rem;
+    width: 11%;
+    margin-top: -3%;
+    transform: rotate(29deg);
+}
+.contact-form form{
+    padding: 14%;
+}
+.contact-form form .row{
+    margin-bottom: -7%;
+}
+.contact-form h3{
+    margin-bottom: 8%;
+    margin-top: -10%;
+    text-align: center;
+    color: #0062cc;
+}
+.contact-form .btnContact {
+    width: 50%;
+    border: none;
+    border-radius: 1rem;
+    padding: 1.5%;
+    background: #dc3545;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+.btnContactSubmit
+{
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    color: #fff;
+    background-color: #0062cc;
+    border: none;
+    cursor: pointer;
+}
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:50%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+footer{
+    background-color: #3f3f3f;
+    color: #d5d5d5;
+    padding-top: 2rem;
+  }
+  hr.light{
+    border-top: 1px solid #d5d5d5;
+    width: 75%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+  }
+  
+  hr.light-100{
+    border-top: 1px solid #d5d5d5;
+    width: 100%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+  }
+  
